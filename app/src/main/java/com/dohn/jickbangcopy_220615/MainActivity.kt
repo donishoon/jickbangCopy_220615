@@ -17,6 +17,8 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
+//        실제로 보여질 데이터 추가
+
         mRoomList.add( RoomData( 8500, "서울시 동대문구", 5, "1번째 방입니다."  ) )
         mRoomList.add( RoomData( 13400, "서울시 동대문구", 3, "2번째 방입니다."  ) )
         mRoomList.add( RoomData( 11100, "서울시 서대문구", 0, "3번째 방입니다."  ) )
@@ -28,6 +30,9 @@ class MainActivity : AppCompatActivity() {
         mRoomList.add( RoomData( 1900, "서울시 서초구", 12, "9번째 방입니다."  ) )
         mRoomList.add( RoomData( 30000, "서울시 서초구", 11, "9번째 방입니다."  ) )
         mRoomList.add( RoomData( 3000, "서울시 구로구", 7, "10번째 방입니다."  ) )
+
+
+//        어댑터 변수에 대입
 
         mAdapter = RoomAdapter( this, R.layout.room_list_item, mRoomList )
 
