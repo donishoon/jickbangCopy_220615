@@ -7,7 +7,11 @@ import com.dohn.jickbangcopy_220615.adapters.RoomAdapter
 import com.dohn.jickbangcopy_220615.datas.RoomData
 import kotlinx.android.synthetic.main.activity_main.*
 
+//  여기는 메인화면
+
 class MainActivity : AppCompatActivity() {
+
+//    방 데이터를 담을 목록 공단
 
     val mRoomList = ArrayList<RoomData>()
 
