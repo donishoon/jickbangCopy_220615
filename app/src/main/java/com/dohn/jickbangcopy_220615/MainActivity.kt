@@ -1,5 +1,6 @@
 package com.dohn.jickbangcopy_220615
 
+import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import com.dohn.jickbangcopy_220615.adapters.RoomAdapter
@@ -31,6 +32,18 @@ class MainActivity : AppCompatActivity() {
         mAdapter = RoomAdapter( this, R.layout.room_list_item, mRoomList )
 
         roomListView.adapter = mAdapter
+
+
+        roomListView.setOnItemClickListener { parent, view, position, id ->
+
+            val clickedRoom = mRoomList[position]
+
+            val myIntent = Intent (this, ViewRoomDetailActivity::class.java)
+            startActivity(myIntent)
+
+
+        }
+
 
     }
 }
