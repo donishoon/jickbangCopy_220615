@@ -11,7 +11,7 @@ import kotlinx.android.synthetic.main.activity_main.*
 
 class MainActivity : AppCompatActivity() {
 
-//    방 데이터를 담을 목록 공단
+//    방 데이터를 담을 목록 공간.
 
     val mRoomList = ArrayList<RoomData>()
 
