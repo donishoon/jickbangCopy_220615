@@ -34,6 +34,8 @@ class RoomAdapter(
 
         txtDescription.text = data.description
 
+        txtAddressFloor.text = data.getFormattedFloor()
+
         return row
 
     }
