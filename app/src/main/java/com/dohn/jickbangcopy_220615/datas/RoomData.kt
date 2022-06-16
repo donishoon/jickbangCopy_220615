@@ -7,5 +7,4 @@ class RoomData(
     val description: String,
 ) {
 
-
 }
