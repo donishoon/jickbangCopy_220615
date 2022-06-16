@@ -21,6 +21,7 @@
         android:paddingVertical="20dp">
 
         <TextView
+            android:id="@+id/txtPrice"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="가격 자리"
@@ -28,14 +29,92 @@
             android:textColor="@color/black" />
 
         <TextView
+            android:id="@+id/txtDescription"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:textSize="16sp"
             android:layout_marginTop="5dp"
             android:text="설명 자리" />
 
+
     </LinearLayout>
 
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#DFDFDF"
+        android:layout_marginHorizontal="15dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingVertical="20dp"
+        android:paddingHorizontal="15dp"
+        android:gravity="center_vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="행정 구역" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" />
+
+        <TextView
+            android:id="@+id/txtAddress"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="17sp"
+            android:textColor="@color/black"
+            android:text="주소 자리" />
+
+
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#DFDFDF"
+        android:layout_marginHorizontal="15dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingVertical="20dp"
+        android:paddingHorizontal="15dp"
+        android:gravity="center_vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="층 수" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" />
+
+        <TextView
+            android:id="@+id/txtFloor"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="17sp"
+            android:textColor="@color/black"
+            android:text="층 수 자리" />
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#DFDFDF"
+        android:layout_marginHorizontal="15dp" />
 
 
 
